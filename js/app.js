@@ -172,7 +172,7 @@ function addCartPro(n, count) {
     newProduct.classList.add("cart_pro");
     newProduct.classList.add("flex");
     newProduct.innerHTML = `
-  <a href="${list_product_search[n].link}"><img src="/${list_product_search[n].picture}" alt=""></a>
+  <a href="${list_product_search[n].link}"><img src="${list_product_search[n].picture}" alt=""></a>
   <div class="cart_pro_info">
     <h3><a href="${list_product_search[n].link}">${list_product_search[n].name}</a></h3>
     <span class="price_1" style="font-size: 1rem;">$${list_product_search[n].price}</span>
